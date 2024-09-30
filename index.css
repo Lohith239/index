@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+header {
+    background-color: #283593; 
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-bottom: 5px solid #1b439a; 
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+input {
+    padding: 15px 20px; 
+    margin: 20px 0;
+    width: 50%; 
+    border-radius: 30px; 
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    font-size: 0.9rem; 
+    outline: none; 
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-color: #1b439a; 
+}
+button {
+    padding: 15px 25px; 
+    background-color: #00796b; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px; 
+    font-size: 1.2rem; 
+    margin-left: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: red; 
+    transform: translateY(-3px); 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.food {
+    background-color: #fffde7; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.food:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.food img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.food h3 {
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.food p {
+    font-size: 14px;
+    color: #333;
+}
+
+a.viewFoodBtn {
+    display: block;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a.viewFoodBtn:hover {
+    background-color: lightseagreen;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b569a;
+    color: white;
+    position: relative;
+    top: 250px;
+    bottom: 0;
+    width: 100%;
+}
